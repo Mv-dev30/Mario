@@ -160,6 +160,23 @@ textarea:focus-visible {
 }
 
 
+@media screen and (max-width: 1026px) {
+    p {
+        display: none;
+    }
+
+    .caixa-mae {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .imagem-mario-luigi {
+        width: 40vh;
+    }
+    
+}
+
 /* 
 
          Posição-formulario
